@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CuppaCuppa/static/css/main.2fff45e5.css",
-    "main.js": "/CuppaCuppa/static/js/main.fc422650.js",
+    "main.js": "/CuppaCuppa/static/js/main.fbc85a2e.js",
     "static/media/pouring-coffee-2500.jpg": "/CuppaCuppa/static/media/pouring-coffee-2500.4189ba95afcc22d5f078.jpg",
     "static/media/coffee-beans-on-the-table1920.jpg": "/CuppaCuppa/static/media/coffee-beans-on-the-table1920.5876e1214e4f43cfa999.jpg",
     "static/media/cup-of-coffee-surrounded-by-beans-1920.jpg": "/CuppaCuppa/static/media/cup-of-coffee-surrounded-by-beans-1920.9bf38919371d035b114a.jpg",
@@ -29,14 +29,15 @@
     "static/media/raleway-regular-webfont.woff": "/CuppaCuppa/static/media/raleway-regular-webfont.2f36a00582b72ad423c3.woff",
     "static/media/playfairdisplay-regular-webfont.woff2": "/CuppaCuppa/static/media/playfairdisplay-regular-webfont.c2fea12ef13829f127f3.woff2",
     "static/media/three-friends-holding-cups-of-coffee640.jpg": "/CuppaCuppa/static/media/three-friends-holding-cups-of-coffee640.79336dc60b3047d6fa9d.jpg",
+    "static/media/logo-coffee.png": "/CuppaCuppa/static/media/logo-coffee.759da6ae6acaff22a193.png",
     "static/media/raleway-regular-webfont.woff2": "/CuppaCuppa/static/media/raleway-regular-webfont.699fe89b073e028d50b8.woff2",
     "static/media/raleway-bold-webfont.woff2": "/CuppaCuppa/static/media/raleway-bold-webfont.70766fad0020ad116b1a.woff2",
     "index.html": "/CuppaCuppa/index.html",
     "main.2fff45e5.css.map": "/CuppaCuppa/static/css/main.2fff45e5.css.map",
-    "main.fc422650.js.map": "/CuppaCuppa/static/js/main.fc422650.js.map"
+    "main.fbc85a2e.js.map": "/CuppaCuppa/static/js/main.fbc85a2e.js.map"
   },
   "entrypoints": [
     "static/css/main.2fff45e5.css",
-    "static/js/main.fc422650.js"
+    "static/js/main.fbc85a2e.js"
   ]
 }
