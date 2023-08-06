@@ -1,6 +1,6 @@
 # CuppaCuppa Website
 
-![CuppaCuppa](https://github.com/tsholo93/CuppaCuppa/assets/59967166/66a9a2f3-e9f7-43ab-8a5c-c0f84a2e2d0b)
+![CuppaCuppa](https://github.com/tsholo93/CuppaCuppa/assets/59967166/c78edef5-a21e-428c-b25b-75ad8337ed22)
 
 ## Project Name: "CuppaCuppa: A Brew-tiful Website for Coffee Lovers"
 
