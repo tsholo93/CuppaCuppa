@@ -28,6 +28,6 @@ $ npm install
 
 ## License
 
-The CuppaCuppa website is open-source and available under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as per the terms of the license.
+The CuppaCuppa website is open-source and available under the MIT License. You are free to use, modify, and distribute the code as per the terms of the license.
 
 Enjoy your time at CuppaCuppa and let us be your guide to a delightful coffee journey! ☕️
