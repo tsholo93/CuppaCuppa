@@ -1,0 +1,93 @@
+.cuppa-hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+
+  background: #0a0c0e;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(/public/coffee.jpg) no-repeat 50% 50% / cover fixed, #0a0c0e;
+  color: white;
+}
+
+.cuppa-hero .title {
+  width: 100%;
+  font-family: "Playfair Display", sans-serif;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.cuppa-hero .button {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.cuppa-hero .button > a {
+  display: block;
+  width: max-content;
+  padding: 0.7rem 1.3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: 1px solid #F2F2F2;
+  border-radius: 10px;
+  color: #F2F2F2;
+}
+
+.cuppa-hero .button > a:link,
+.cuppa-hero .button > a:visited {
+  border: 1px solid #F2F2F2;
+  color: #F2F2F2;
+}
+
+.cuppa-hero .button > a:hover,
+.cuppa-hero .buttton > a:focus {
+  border: 1px solid #F2F2F2;
+  color: #F2F2F2;
+}
+
+.cuppa-hero .button > a:active {
+  border: 1px solid #F2F2F2;
+  color: #F2F2F2;
+}
+
+@media all and (min-width: 576px) {
+  .cuppa-hero {
+    padding: 4rem;
+  }
+  .cuppa-hero .title {
+    font-size: 4rem;
+    max-width: 100%
+  }
+  .cuppa-hero .paragraph {
+    max-width: 80%;
+  }
+}
+@media all and (min-width: 768px) {
+}
+@media all and (min-width: 992px) {
+  .cuppa-hero .title {
+    font-size: 6rem;
+  }
+
+  .cuppa-hero .paragraph {
+    font-size: 1.3rem;
+    max-width: 60%;
+  }
+
+  .cuppa-hero .button > a {
+    font-size: 1rem;
+  }
+}
+@media all and (min-width: 1200px) {
+}
+@media all and (min-width: 1400px) {}

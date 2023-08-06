@@ -1,0 +1,78 @@
+
+
+h2, h3 {
+  font-family: "Playfair Display", "Raleway" ,sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.1 !important;
+  text-transform: capitalize !important;
+
+}
+
+h2 {
+  font-size: 2rem !important;
+}
+
+h3 {
+  font-size: 1.35rem !important;
+}
+
+p {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+}
+
+h1, h2, h3, p,
+article, section, div {
+  display: block ;
+}
+
+/*  P A G E  B U T T O N S  */
+
+.page-btn {
+  font-family: 'Playfair Display', serif;
+  display: inline-block;
+  font-size: 0.65rem;
+  letter-spacing: 0.3ch;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  background-color: black;
+  color: white;
+
+
+  width: max-content;
+  padding: 0.8rem 1rem;
+  border-radius: 1ch;
+}
+
+.page-btn:link
+.page-btn:visited {
+  color: white;
+  background-color: black;
+}
+
+/* --- end --- */
+
+
+/*  P A G E  S P A C E  */
+
+.cuppa-page-pad {
+  padding: 4rem 1.5rem !important;
+}
+
+@media all and (min-width: 992px) {
+  .cuppa-page-pad {
+    padding: 3rem !important;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .cuppa-page-pad {
+    padding: 4rem !important;
+  }
+}
+
+
+
+/* --- end -- */

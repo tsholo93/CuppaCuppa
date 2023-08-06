@@ -1,0 +1,20 @@
+.cuppa-bookings {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url(/public/cafe.jpg) no-repeat 50% 50% / cover fixed;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+@media all and (min-width: 768px) {
+  .cuppa-bookings {
+    flex-flow: row wrap;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .cuppa-bookings {
+    flex-flow: row wrap;
+  }
+}

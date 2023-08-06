@@ -1,0 +1,65 @@
+.cuppa-subscription {
+  display: block;
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  background: linear-gradient(
+    rgba(0,0,0,0.65),
+    rgba(0, 0, 0, 0.65)),
+    url(/public/coffee-blur.jpg) no-repeat 50% 50% / cover  fixed, #0a0c0e;
+    color: #F2F2F2;
+}
+
+.cuppa-subscription .paragraph,
+.cuppa-subscription .paragraph-cta {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.cuppa-subscription .paragraph {
+  margin: 1rem 0;
+}
+
+.cuppa-subscription-container {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media all and (min-width: 576px) {
+  .cuppa-subscription-container {
+    width: 70%;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .cuppa-subscription-container {
+    width: 55%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .cuppa-subscription-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+  }
+
+  .cuppa-subscription .paragraph,
+  .cuppa-subscription .paragraph-cta {
+    max-width: 85%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .cuppa-subscription-container {
+    width: 45%;
+  }
+}

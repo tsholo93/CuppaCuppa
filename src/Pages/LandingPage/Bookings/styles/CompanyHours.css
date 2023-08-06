@@ -1,0 +1,54 @@
+.cuppa-hours {
+  background: #333440;
+  background: #0a0c0e;
+  color: #89888C;
+  color: #F0F0F2;
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-top: 1.5rem;
+}
+
+.cuppa-hours .heading {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.cuppa-hours .paragraph {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.85rem !important;
+}
+
+.cuppa-hours .phone {
+  border-top: 1px dotted #333440;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+}
+
+@media all and (min-width: 768px) {
+  .cuppa-hours {
+    flex: 1 1 46%;
+  }
+}
+
+
+@media all and (min-width: 992px) {
+  .cuppa-hours {
+    max-width: 40%;
+    flex: 1 1 40%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .cuppa-hours {
+    flex: 1 1 30%;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .cuppa-hours {
+    flex: 1 1 40%;
+  }
+}
+
+

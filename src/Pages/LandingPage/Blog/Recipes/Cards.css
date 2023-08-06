@@ -1,0 +1,146 @@
+
+.card-list-wrapper {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: stretch;
+  align-items: stretch;
+}
+
+.card-list-wrapper .item {
+  min-width: 10rem;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 1.5rem;
+
+}
+
+/* || card image*/
+
+.card-list-wrapper .item .image {
+  overflow: hidden;
+  max-width: 100%;
+
+  background: blue;
+}
+
+.card-list-wrapper .item .image > img {
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 40%;
+}
+
+/* || card icon */
+
+.card-list-wrapper .item .icon {
+  overflow: hidden;
+  min-width: 50px;
+  max-width: 50px;
+  width: 50px;
+  min-height: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+}
+
+.card-list-wrapper .item .icon > img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* || card content */
+
+.card-list-wrapper .item .content {
+  max-width: 100%;
+  padding: 1rem;
+}
+
+
+.card-list-wrapper .item .content > * {
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+.card-list-wrapper .item .tail {
+  max-width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card-list-wrapper .item .footnote {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-left: 1rem;
+}
+
+.card-list-wrapper .item .footnote > p {
+  width: 100%;
+  display: inline-flex;
+}
+
+.card-list-wrapper .card-footnote span,
+.card-list-wrapper .item .pub {
+  display: inline-block;
+  flex: 1 1 48%;
+}
+
+.card-list-wrapper .item .pub {
+  text-align: right;
+}
+
+.card-list-wrapper .item .btn {
+  display: block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.card-list-wrapper .item .btn:link,
+.card-list-wrapper .item .btn:visited {
+  color: #F2F2F2;
+}
+
+
+@media screen and (min-width: 600px) {
+  .card-list-wrapper .item {
+    width: 80%;
+    margin: 0 auto 1.5rem auto;
+  }
+
+  .card-list-wrapper .item .image {
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .card-list-wrapper {
+    flex-flow: row wrap;
+    padding: 0;
+  }
+
+  .card-list-wrapper .item {
+    margin: 0 0.5rem;
+    max-width: 30rem;
+    flex: 1 1 0;
+  }
+
+  .card-list-wrapper .item .content {
+    padding: 1rem;
+  }
+
+
+}
+

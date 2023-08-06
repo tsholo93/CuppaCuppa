@@ -1,0 +1,168 @@
+.cuppa-page-footer {
+  padding: 4rem 2rem;
+  background: #0a0c0e;
+  color: #F2F2F2;
+}
+.cuppa-page-footer h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.cuppa-page-footer p {
+  font-size: 1rem;
+}
+
+.cuppa-page-footer .brand-name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: none !important;
+}
+
+.cuppa-page-footer .slogan {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.cuppa-page-footer .container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 4rem;
+}
+
+
+.cuppa-page-footer ul {
+  list-style: none;
+}
+
+.cuppa-page-footer .about-content p {
+  margin-bottom: 1rem;
+}
+
+.cuppa-page-footer .contact-content .contact-address {
+  margin-bottom: 3rem;
+}
+
+.cuppa-page-footer .social-content li,
+.cuppa-page-footer .legal-content li {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.cuppa-page-footer .social-content li > a,
+.cuppa-page-footer .legal-content li > a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+  color: #F2F2F2;
+}
+
+.cuppa-page-footer .social-content li > a:link,
+.cuppa-page-footer .social-content li > a:visited,
+.cuppa-page-footer .legal-content li > a:link,
+.cuppa-page-footer .legal-content li > a:visited {
+  color: #F2F2F2;
+}
+
+.cuppa-page-footer .social-content li > a:focus,
+.cuppa-page-footer .legal-content li > a:focus {
+  outline: 1px dotted #F2F2F2;
+}
+
+.cuppa-page-footer .social-content li > a:hover,
+.cuppa-page-footer .legal-content li > a:hover {
+  text-decoration: dotted underline #F2F2F2 1px;
+  font-weight: 700;
+}
+
+.cuppa-page-footer .social-content li > a:active,
+.cuppa-page-footer .legal-content li > a:active {
+  font-weight: 700;
+}
+
+.cuppa-page-footer small {
+  font-size: 0.7rem;
+}
+
+.cuppa-page-footer .contact-engage span {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+}
+
+.cuppa-page-footer .copy-right-content {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #333440;
+}
+
+.cuppa-page-footer .about-content,
+.cuppa-page-footer .contact-content {
+  flex: 1 1 100%;
+  margin-bottom: 2rem;
+}
+
+.cuppa-page-footer .social-content,
+.cuppa-page-foote .legal-content {
+  flex: 0 1 40%;
+  margin-right: 2rem;
+}
+
+
+
+
+@media all and (min-width: 576px) {
+  .cuppa-page-footer .social-content,
+  .cuppa-page-footer .legal-content {
+    max-width: 28.6%;
+    flex: 1 1 25%;
+    margin-right: 0;
+  }
+
+  .cuppa-page-footer .contact-content {
+    flex: 1 1 40%;
+  }
+}
+
+
+@media all and (min-width: 768px) {
+  .cuppa-page-footer .about-content {
+    flex: 1 1 50%;
+    margin-right: 2rem;
+  }
+
+  .cuppa-page-footer .contact-content {
+    flex: 1 1 40%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .cuppa-page-footer .about-content {
+    flex: 1 1 40%;
+    margin-bottom: 0;
+  }
+
+  .cuppa-page-footer .contact-content {
+    max-width: 30%;
+    flex: 1 1 25%;
+    margin-bottom: 0;
+  }
+
+  .cuppa-page-footer .social-content,
+  .cuppa-page-footer .legal-content {
+    flex: 1 1 15%;
+    flex: 1 1 max-content;
+  }
+
+  .cuppa-page-footer.container {
+    margin-bottom: 8rem;
+  }
+}

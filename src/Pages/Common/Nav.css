@@ -1,0 +1,135 @@
+.cuppa-page-nav {
+  flex: 1 1 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cuppa-page-nav .menu-list {
+  list-style: none;
+}
+
+.cuppa-page-nav .menu-list .link,
+.cuppa-page-nav .menu-list .reservation-btn {
+  display: block;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 0.4rem 2rem;
+  text-align: center;
+}
+
+.cuppa-page-nav .menu-list .link {
+  color: #F2F2F2;
+}
+
+.cuppa-page-nav .menu-list .link:link,
+.cuppa-page-nav .menu-list .link:visited {
+  color: #F2F2F2;
+}
+
+.cuppa-page-nav .menu-list .link:focus {
+  outline: 1px dotted #F2F2F2;
+}
+
+.cuppa-page-nav .menu-list .link:hover {
+  font-weight: 700;
+}
+
+.cuppa-page-nav .menu-list .link:active {}
+
+.cuppa-page-nav .menu-list .reservation-btn {
+  margin: 1.5rem auto 0 auto;
+  background: #D98F4E;
+  color: #0E0E0E;
+  font-weight: 700;
+  border-radius: 0px;
+}
+
+.cuppa-page-nav .menu-list .reservation-btn:link,
+.cuppa-page-nav .menu-list .reservation-btn:visited {}
+
+.cuppa-page-nav .menu-list .reservation-btn:focus {}
+.cuppa-page-nav .menu-list .reservation-btn:hover {}
+.cuppa-page-nav .menu-list .reservation-btn:active {}
+
+/* nav menu toggler */
+
+.cuppa-page-nav .menu-toggler {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #D98F4E;
+  border-radius: 50%;
+  background: #0a0c0e;
+  color: #F2F2F2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  word-spacing: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuppa-page-nav .menu-toggler > img {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.cuppa-page-nav .menu-toggler {
+  position: absolute;
+  top: 0.5rem;
+  z-index: 2000;
+}
+
+.cuppa-page-nav .menu-list {
+  list-style: none;
+  display: none;
+}
+
+.menu-list.open {
+  position: absolute;
+  z-index: 1000;
+  bottom: 0; top: 0;
+  right: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #0E0E0E;
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list li {
+  width: 50%;
+}
+
+
+@media all and (min-width: 992px) {
+  .cuppa-page-nav .menu-list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+   .cuppa-page-nav .menu-toggler {
+    display: none;
+  }
+
+  .cuppa-page-nav .menu-list .link {
+    padding: 0 1rem;
+  }
+
+  .cuppa-page-nav .menu-list .reservation-btn {
+    width: max-content;
+    margin: 0 1rem;
+  }
+}
+

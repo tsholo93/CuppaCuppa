@@ -1,0 +1,180 @@
+
+.cuppa-cards {
+  list-style: none;
+}
+
+.cuppa-blog-intro .paragraph {
+  margin: 0 auto 2rem auto;
+}
+
+.cuppa-cards li {
+  margin-bottom: 2rem;
+}
+
+/* styles for Blogcta */
+
+.cuppa-blogcta .paragraph,
+.cuppa-blogcta .cuppa-button {
+  margin-bottom: 1rem;
+}
+
+/* --- END --- */
+
+@media all and (min-width: 567px) {
+  /* styles for BlogCta */
+
+  .cuppa-blogcta {
+    max-width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
+
+
+  .cuppa-blogcta .paragraph {
+    flex: 1 1 70%;
+    margin-right: 4%;
+  }
+
+  .cuppa-blogcta .cuppa-button {
+    max-width: 40%;
+    flex: 1 1 35%;
+  }
+
+  /* --- END --- */
+
+  /* styles for BlogCards */
+
+  .cuppa-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cuppa-cards li {
+    max-width: 80%;
+    flex: 1 1 50%;
+    margin: 3% 1%;
+  }
+
+  /* --- END --- */
+
+  /* styles for BlogIntro */
+
+  .cuppa-blog-intro {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  /* --- END ***/
+
+}
+
+@media all and (min-width: 768px) {
+  /* styles for BlogCta */
+
+  .cuppa-blogcta {
+    width: 70%;
+  }
+
+  .cuppa-blogcta .paragraph {
+    flex: 2 1 70%;
+    margin-right: 3%;
+  }
+
+  .cuppa-blogcta .cuppa-button {
+    max-width: 35%;
+    flex: 1 1 30%;
+  }
+
+  /* --- END --- */
+
+  .cuppa-cards li {
+    max-width: 70%;
+  }
+
+  /* styles for BlogCards */
+
+
+  /* --- END --- */
+
+  /* styles for BlogIntro */
+
+  .cuppa-blog-intro {
+    max-width: 70%;
+    min-width: 60%;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /* --- END --- */
+}
+
+@media all and (min-width: 992px) {
+  /* styles for Blogcta */
+
+  .cuppa-blogcta {
+    width: 85%;
+    margin-left: 1%;
+  }
+
+  .cuppa-blogcta .cuppa-button {
+    max-width: 25%;
+  }
+
+  /* --- END --- */
+
+  /* styles for BlogCards */
+
+  .cuppa-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    align-items: stretch;
+  }
+
+  .cuppa-cards li {
+    flex: 1 1 15rem;
+    margin-right: 1rem;
+  }
+
+  .cuppa-cards li:last-child {
+    margin-right: 0;
+  }
+
+  /* --- END --- */
+
+  /* styles for BlogIntro */
+
+  .cuppa-blog-intro {
+    min-width: 55%;
+    max-width: 70%;
+    width: 66%;
+    margin-left: 1%;
+  }
+  /* --- END --- */
+}
+
+@media all and (min-width: 1200px) {
+  /* styles for Blogcta */
+
+  .cuppa-blogcta {
+    width: 75%;
+  }
+
+
+  /* --- END --- */
+}
+
+@media all and (min-width: 1400px) {
+  /* styles for Blogcta*/
+
+  .cuppa-blogcta {
+    width: 60%;
+  }
+
+  /* --- END --- */
+}

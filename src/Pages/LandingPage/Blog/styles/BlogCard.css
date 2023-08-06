@@ -1,0 +1,115 @@
+.cuppa-card {
+
+  width: 100%;
+  height: 100%;
+  background: #403F2F;
+  color: #F2F2F2;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px hsla(57, 26%, 25%, 0.12), 0px 1px 2px hsla(57, 26%, 25%, 0.24);
+}
+
+.cuppa-card .card-image,
+.cuppa-card .card-image > img {
+  box-shadow: 0px 1px 3px hsla(57, 26%, 25%, 0.12), 0px 1px 2px hsla(57, 26%, 25%, 0.24);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cuppa-card .card-image > img {
+  max-width: 100%;
+}
+
+/* content */
+
+.cuppa-card .card-content {
+  padding: 1rem;
+}
+
+.cuppa-card .card-content .title {
+  min-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cuppa-card .card-content .paragraph {
+  min-height: 7rem;
+}
+
+.cuppa-card .card-content .link {
+  margin-left: 0.4rem;
+  display: inline-block;
+  color: pink;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+}
+
+.cuppa-card .card-content .link:link,
+.cuppa-card .card-content .link:visited {
+  color: pink;
+}
+
+.cuppa-card .card-content .link:focus {
+  outline: 1px dotted pink;
+}
+.cuppa-card .card-content .link:hover {
+  text-decoration: solid underline pink 1px;
+}
+.cuppa-card .card-content .link:active {}
+
+
+
+
+/* Footnote */
+
+.cuppa-card .card-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  border-top: 1px solid grey;
+}
+
+.cuppa-card .avatar {
+  flex: 0 0 50px;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.cuppa-card .avatar > img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.cuppa-card .footnote {
+  flex: 1 1 70%;
+  display: flex;
+}
+
+.cuppa-card .footnote .author {
+  flex: 1 1 60%;
+  margin-left: 0.7rem;
+}
+
+.cuppa-card .footnote .date,
+.cuppa-card .footnote .author {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.cuppa-card .footnote .date {
+  flex: 1 1 40%;
+  text-align: right;
+}
+
+
+
+@media all and (min-width: 768px) {}
+@media all and (min-width: 992px) {
+  .cuppa-card {
+  }
+}

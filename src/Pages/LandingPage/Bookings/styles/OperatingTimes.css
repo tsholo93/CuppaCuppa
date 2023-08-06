@@ -1,0 +1,19 @@
+.cuppa-times {
+  color: #F0F0F2;
+  margin: 1.5rem 0;
+  border-top: 1px dotted #333440;
+}
+
+.cuppa-times h4 {
+  margin: 1.4rem 0 0.2rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cuppa-times p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

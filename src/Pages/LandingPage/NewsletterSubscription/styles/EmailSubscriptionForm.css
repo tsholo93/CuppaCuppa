@@ -1,0 +1,55 @@
+.cuppa-form {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.cuppa-form .input {
+  margin-bottom: 0.9rem;
+}
+
+.cuppa-form .button {
+}
+
+.cuppa-form .input > input,
+.cuppa-form .button > button {
+  width: 100%;
+  display: block;
+
+}
+
+.cuppa-form .input > input {
+  padding: 0.8rem 1.2rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  border: 1px solid #A1875B;
+  background: none;
+  color: #F0F0F2;
+  border-radius: 10px;
+}
+
+.cuppa-form .button > button {
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  padding: 0.95rem 0.5rem;
+  background: #A1875B;
+  color: #0a0c0e;
+  appearance: none;
+  border: 1px solid #A1875B;
+  border-radius: 10px;
+}
+
+@media all and (min-width: 576px) {}
+
+
+@media all and (min-width: 992px) {
+  .cuppa-form {
+    width: 85%;
+  }
+}
+

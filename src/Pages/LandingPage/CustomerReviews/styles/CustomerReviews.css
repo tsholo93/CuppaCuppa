@@ -1,0 +1,82 @@
+.cuppa-carousel-wrapper {
+  margin: 2rem 0;
+}
+
+/* Review Conclusion */
+
+.cuppa-review-conclusion .wrapper {
+  width: 100%;
+}
+
+.cuppa-review-conclusion .link {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.cuppa-review-conclusion .link > a {
+  display: block;
+  width: max-content;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  word-spacing: 2px;
+  background: #261420;
+  color: #F2F2F2;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cuppa-review-conclusion .link > a:link,
+.cuppa-review-conclusion .link > a:visited {
+  color: #F2F2F2;
+  background: #261420;
+}
+
+.cuppa-review-conclusion .link > a:focus {
+  outline: 1px dotted #0a0c0e;
+}
+
+.cuppa-review-conclusion .link a:hover {
+
+}
+
+.cuppa-review-conclusion .link a:focus {}
+
+/* --- END --- */
+
+/* review intro */
+
+.cuppa-review-intro .paragraph {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media all and (min-width: 568px) {
+  .cuppa-review-conclusion .wrapper {
+    width: 90%;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .cuppa-review-conclusion .wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+  }
+
+  .cuppa-review-conclusion .wrapper .paragraph {
+    margin-right: 1.5rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .cuppa-review-conclusion .wrapper {
+    width: 90%;
+  }
+}

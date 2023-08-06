@@ -1,0 +1,40 @@
+:root {
+  --swiper-theme-color: #333440 !important;
+}
+
+
+.swiper {
+  width: 100%;
+  position: relative;
+}
+
+.swiper-slide {
+  min-height: 100%;
+}
+
+/* carousel wrapper/container */
+
+
+.swiper-pagination-bullet {}
+.swipper-pagination-bullet-active {}
+
+.swiper-button-prev {}
+
+@media screen and (min-width: 768px) {
+  .carousel-controls {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 992px) {
+
+  .control-btn {
+    max-width: 10%;
+  }
+
+  .control-btn-prev {
+    left: 10% !important;
+  }
+}
+@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1400px) {}
