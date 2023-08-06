@@ -1,5 +1,7 @@
 # CuppaCuppa Website
 
+![CuppaCuppa](https://github.com/tsholo93/CuppaCuppa/assets/59967166/66a9a2f3-e9f7-43ab-8a5c-c0f84a2e2d0b)
+
 ## Project Name: "CuppaCuppa: A Brew-tiful Website for Coffee Lovers"
 
 CuppaCuppa is a delightful website dedicated to a coffee cafe business. It was created with the aim of providing a central hub for all things coffee-related, catering to both seasoned coffee lovers and those new to the coffee culture.
