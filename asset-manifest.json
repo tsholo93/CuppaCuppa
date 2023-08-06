@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/CuppaCuppa/static/css/main.2fff45e5.css",
+    "main.js": "/CuppaCuppa/static/js/main.fc422650.js",
+    "static/media/pouring-coffee-2500.jpg": "/CuppaCuppa/static/media/pouring-coffee-2500.4189ba95afcc22d5f078.jpg",
+    "static/media/coffee-beans-on-the-table1920.jpg": "/CuppaCuppa/static/media/coffee-beans-on-the-table1920.5876e1214e4f43cfa999.jpg",
+    "static/media/cup-of-coffee-surrounded-by-beans-1920.jpg": "/CuppaCuppa/static/media/cup-of-coffee-surrounded-by-beans-1920.9bf38919371d035b114a.jpg",
+    "static/media/cafe.jpg": "/CuppaCuppa/static/media/cafe.f81cecddf70c12859536.jpg",
+    "static/media/pouring-coffee-1280.jpg": "/CuppaCuppa/static/media/pouring-coffee-1280.1609fdc913eb3f4c5805.jpg",
+    "static/media/barista-making-coffee1920.jpg": "/CuppaCuppa/static/media/barista-making-coffee1920.ef028331cb14a56ab681.jpg",
+    "static/media/two-women-barista-making-coffee1920.jpg": "/CuppaCuppa/static/media/two-women-barista-making-coffee1920.96c3de6fb57c3f4c4a26.jpg",
+    "static/media/phone-cup1920.jpg": "/CuppaCuppa/static/media/phone-cup1920.9ec651d17a4b9fc28e73.jpg",
+    "static/media/cafe1200.jpg": "/CuppaCuppa/static/media/cafe1200.e09c035db0b3bee4cd3e.jpg",
+    "static/media/three-friends-holding-cups-of-coffee1920.jpg": "/CuppaCuppa/static/media/three-friends-holding-cups-of-coffee1920.e3d83522257090ec0897.jpg",
+    "static/media/women-enjoying-a-cup-of-coffee1920.jpg": "/CuppaCuppa/static/media/women-enjoying-a-cup-of-coffee1920.f7f8ac65d40aa03026ad.jpg",
+    "static/media/coffee-blur.jpg": "/CuppaCuppa/static/media/coffee-blur.2f0ac7399d3e9b8dc03c.jpg",
+    "static/media/playfairdisplay-regular-webfont.ttf": "/CuppaCuppa/static/media/playfairdisplay-regular-webfont.dee7507b83b7ceb632ac.ttf",
+    "static/media/raleway-regular-webfont.ttf": "/CuppaCuppa/static/media/raleway-regular-webfont.f1581fbde9de53764cc9.ttf",
+    "static/media/raleway-bold-webfont.ttf": "/CuppaCuppa/static/media/raleway-bold-webfont.0055a8ddb53b1e77a3e6.ttf",
+    "static/media/coffee-blur1200.jpg": "/CuppaCuppa/static/media/coffee-blur1200.685aa0e48b915cc8ae3a.jpg",
+    "static/media/coffee-beans-on-the-table640.jpg": "/CuppaCuppa/static/media/coffee-beans-on-the-table640.1905c80ff07e16b4b9f0.jpg",
+    "static/media/cup-of-coffee-surrounded-by-beans-640.jpg": "/CuppaCuppa/static/media/cup-of-coffee-surrounded-by-beans-640.1f711943fe24301e67d0.jpg",
+    "static/media/phone-cup640.jpg": "/CuppaCuppa/static/media/phone-cup640.17d0860362b1f2d44ab8.jpg",
+    "static/media/playfairdisplay-regular-webfont.woff": "/CuppaCuppa/static/media/playfairdisplay-regular-webfont.ff803c672fcc7569ef62.woff",
+    "static/media/barista-making-coffee640.jpg": "/CuppaCuppa/static/media/barista-making-coffee640.2f9f4f7dd7cad66746d2.jpg",
+    "static/media/women-enjoying-a-cup-of-coffee640.jpg": "/CuppaCuppa/static/media/women-enjoying-a-cup-of-coffee640.55b5204fa58a1ff4e5ef.jpg",
+    "static/media/two-women-barista-making-coffee640.jpg": "/CuppaCuppa/static/media/two-women-barista-making-coffee640.b945448a34a1d68ffa2d.jpg",
+    "static/media/raleway-bold-webfont.woff": "/CuppaCuppa/static/media/raleway-bold-webfont.f5a6e915ac552c1f3f8b.woff",
+    "static/media/raleway-regular-webfont.woff": "/CuppaCuppa/static/media/raleway-regular-webfont.2f36a00582b72ad423c3.woff",
+    "static/media/playfairdisplay-regular-webfont.woff2": "/CuppaCuppa/static/media/playfairdisplay-regular-webfont.c2fea12ef13829f127f3.woff2",
+    "static/media/three-friends-holding-cups-of-coffee640.jpg": "/CuppaCuppa/static/media/three-friends-holding-cups-of-coffee640.79336dc60b3047d6fa9d.jpg",
+    "static/media/raleway-regular-webfont.woff2": "/CuppaCuppa/static/media/raleway-regular-webfont.699fe89b073e028d50b8.woff2",
+    "static/media/raleway-bold-webfont.woff2": "/CuppaCuppa/static/media/raleway-bold-webfont.70766fad0020ad116b1a.woff2",
+    "index.html": "/CuppaCuppa/index.html",
+    "main.2fff45e5.css.map": "/CuppaCuppa/static/css/main.2fff45e5.css.map",
+    "main.fc422650.js.map": "/CuppaCuppa/static/js/main.fc422650.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fff45e5.css",
+    "static/js/main.fc422650.js"
+  ]
+}
