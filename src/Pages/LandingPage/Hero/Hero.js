@@ -9,7 +9,7 @@ function Hero() {
       </p>
 
       <div className="button">
-        <a href="#0">Visit store</a>
+        <a href="#0" className="cuppa-button cuppa-button-cream">Visit store</a>
       </div>
     </section>
   )
@@ -18,10 +18,3 @@ function Hero() {
 
 export default Hero
 
-/*
-  {
-    heading: "Join Our Coffee Community",
-    tagline: "Hello, new friend!",
-    content: "Join our loyalty program and unlock exclusive rewards. Every visit brings you closer to free drinks, discounts, and special surprises. Start earning today! Together, let's create cherished memories over a perfect cup of coffee."
-  },
-*/

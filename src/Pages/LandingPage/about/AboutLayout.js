@@ -1,6 +1,6 @@
 import TeamContent from "./TeamContent";
 import FarmStoryContent from "./FarmStoryContent";
-import AboutContent from "./AboutContent";
+import WelcomeContent from "./WelcomeContent";
 
 export default function AboutLayout() {
   return (
@@ -10,10 +10,9 @@ export default function AboutLayout() {
         backgroundColor: "#A6845B",
         color: "#0a0c0e"
       }}>
-      <AboutContent/>
+      <WelcomeContent/>
       <FarmStoryContent/>
       <TeamContent/>
     </section>
-
   )
 }

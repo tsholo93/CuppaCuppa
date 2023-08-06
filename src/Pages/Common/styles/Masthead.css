@@ -1,0 +1,65 @@
+.cuppa-masthead,
+.cuppa-masthead-center {
+  width: 100%;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.cuppa-masthead-heading,
+.cuppa-masthead-center-heading {
+  font-family: "Playfair Display", "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: none;
+  font-size: 2rem;
+  line-height: 1.1;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.cuppa-masthead-tagline,
+.cuppa-masthead-center-tagline {
+  display: block;
+  margin-left: 55px;
+  margin-bottom: 1rem;
+  font-size: 0.85rem !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cuppa-masthead-tagline::before {
+  content: '';
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 40px;
+  height: 10px;
+  background-color: #261420;
+  border-radius: 8px;
+}
+
+.cuppa-masthead-center-tagline {
+  margin-left: 0;
+}
+
+
+.cuppa-masthead-center-tagline::before {
+  content: "";
+  background-color: #261420;
+  width: 40px;
+  height: 10px;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cuppa-masthead-center,
+.cuppa-masthead-center-heading {
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+
+}
+

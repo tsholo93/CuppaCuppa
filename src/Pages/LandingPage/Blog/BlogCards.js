@@ -1,14 +1,26 @@
 import BlogCard from "./BlogCard";
 import "./styles/Blog.css";
 
+import womenDrinking640 from "./assets/women-enjoying-a-cup-of-coffee640.jpg";
+import womenDrinking1920 from "./assets/women-enjoying-a-cup-of-coffee1920.jpg";
+import coffeeBeans640 from "./assets/cup-of-coffee-surrounded-by-beans-640.jpg";
+import coffeeBeans1920 from "./assets/cup-of-coffee-surrounded-by-beans-1920.jpg";
+import womenMakingCoffee640 from "./assets/two-women-barista-making-coffee640.jpg";
+import womenMakingCoffee1920 from "./assets/two-women-barista-making-coffee1920.jpg";
+
+import iconImage from "../../../assets/images/icons/blog-placeholder.jpeg";
+
+
 const articles = [
   {
     id: 0,
     heading: "The Art of Brewing the Perfect Cup of Coffee at Home",
     content:  "Step-by-step instructions and tips for readers who want to make a delicious cup of coffee in the comfort of their own homes.",
     image: {
-      url: '/three-cups-of-coffee-on-table.jpg',
-      iconUrl: '/blog-placeholder.jpeg',
+      size640: womenMakingCoffee640,
+      size1920: womenMakingCoffee1920,
+      alt: "two women barista making a cup of coffee inside a coffee shop",
+      iconUrl: iconImage,
     },
     pubInfo: {
       date: 'June 06, 2023',
@@ -19,10 +31,12 @@ const articles = [
   {
     id: 1,
     heading: "Unveiling the World's Most Expensive Coffees",
-    content: "A Showcase of rare and expensive coffee beans, such as Kopi Luwak or Black Ivory Coffee, and explore their unique production processes, origins, and exquisite flavors.",
+    content: "A Showcase of rare and expensive coffee beans, such as Kopi Luwak, and explore their unique production processes, origins, and exquisite flavors.",
     image: {
-      url: '/coffee-beans.jpg',
-      iconUrl: '/blog-placeholder.jpeg'
+      size640: coffeeBeans640,
+      size1920: coffeeBeans1920,
+      alt: "cup of coffee surrounded by coffee beans on a wood table",
+      iconUrl: iconImage
     },
     pubInfo: {
       date: 'May 1, 2023',
@@ -33,10 +47,12 @@ const articles = [
   {
     id: 2,
     heading: "Exploring the Health Benefits of Coffee",
-    content:  "Covers topics such as antioxidants found in coffee, the impact of coffee on cognitive function and alertness, and its potential role in reducing the risk of certain diseases.",
+    content:  "Covers topics such as antioxidants found in coffee, the impact of coffee on cognitive function, and its potential role in reducing the risk of certain diseases.",
     image: {
-      url: 'friendly-service.jpg',
-      iconUrl: '/blog-placeholder.jpeg'
+      size640: womenDrinking640,
+      size1920: womenDrinking1920,
+      alt: "Women enjoying a cup of coffee",
+      iconUrl: iconImage
     },
     pubInfo: {
       date: 'April 1, 2023',

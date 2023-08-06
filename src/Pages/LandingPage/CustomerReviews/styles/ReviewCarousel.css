@@ -1,6 +1,31 @@
 :root {
   --swiper-theme-color: #333440 !important;
 }
+.cuppa-carousel-wrapper {
+  position: relative;
+  margin: 2rem auto;
+  width: 100%;
+}
+
+.cuppa-carousel-wrapper .open-quote {
+  position: absolute;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  top: 5%;
+  left: 5%;
+  opacity: 0.5;
+}
+
+.cuppa-carousel-wrapper .close-quote {
+  position: absolute;
+  z-index: 1000;
+  width: 60px;
+  height: 60px;
+  bottom: 5%;
+  right: 5%;
+  opacity: 0.5;
+}
 
 
 .swiper {
@@ -12,29 +37,33 @@
   min-height: 100%;
 }
 
-/* carousel wrapper/container */
+@media all and (min-width: 568px) {
 
-
-.swiper-pagination-bullet {}
-.swipper-pagination-bullet-active {}
-
-.swiper-button-prev {}
+}
 
 @media screen and (min-width: 768px) {
-  .carousel-controls {
-    width: 50%;
-    margin: 0 auto;
+  .cuppa-carousel-wrapper {
+    width: 88%;
   }
 }
 @media screen and (min-width: 992px) {
-
-  .control-btn {
-    max-width: 10%;
+  .cuppa-carousel-wrapper {
+    width: 80%;
   }
 
-  .control-btn-prev {
-    left: 10% !important;
+  .cuppa-carousel-wrapper .open-quote,
+  .cuppa-carousel-wrapper .close-quote {
+    width: 60px;
+    height: 60px;
   }
 }
-@media screen and (min-width: 1200px) {}
-@media screen and (min-width: 1400px) {}
+@media screen and (min-width: 1200px) {
+  .cuppa-carousel-wrapper {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .cuppa-carousel-wrapper {
+    width: 70%;
+  }
+}

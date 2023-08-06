@@ -1,14 +1,12 @@
-import CoffeeTastingEvent from "./CoffeeTastingEvent"
+import CoffeeTastingEvent from "./CoffeeTastingEvent";
 import CompanyHours from "./CompanyHours";
+import "../../Common/styles/common.css";
 import "./styles/Bookings.css";
 
 function Bookings() {
   return (
     <section
-      className="cuppa-page-pad cuppa-bookings"
-      style={{
-        color: "#F2F2F2"
-      }}>
+      className="cuppa-page-pad cuppa-bookings">
       <CoffeeTastingEvent />
       <CompanyHours />
     </section>

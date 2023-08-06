@@ -1,8 +1,32 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import menuIcon from "./assets/menu-icon.png";
+import closeIcon from "./assets/close-icon.png";
 import "./Nav.css";
 
 export default function Nav() {
   const [isActive, setIsActive] = useState(false);
+
+  let screenWidth = Math.max(
+    document.body.offsetWidth,
+    document.documentElement.offsetWidth,
+  );
+
+  useEffect(() => {
+    function handleResize() {
+      screenWidth = Math.max(
+        document.body.offsetWidth,
+        document.documentElement.offsetWidth
+      );
+
+       if(screenWidth > 768) {
+         setIsActive(false);
+       }
+    }
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize)
+  }, [])
+
   return (
     <nav className="cuppa-page-nav">
       <Toggler
@@ -18,8 +42,8 @@ export default function Nav() {
 
 
 function Toggler({ toggle, onToggle }) {
-  let openImage = "/menu-icon.png";
-  let closeImage = "/close-menu.png";
+  let openImage = menuIcon;
+  let closeImage = closeIcon;
   let toggleImage = (toggle) ? closeImage : openImage;
 
   return (
@@ -40,7 +64,7 @@ function MenuList({ isOpen }) {
       <li><a href="#0" className="link">Order</a></li>
       <li><a href="#0" className="link">Blog</a></li>
       <li><a href="#0" className="link">Contact</a></li>
-      <li><a href="#0" className="reservation-btn">Book taster</a></li>
+      <li className="reservation-button"><a href="#0" className="cuppa-button cuppa-button-cream">Book taster</a></li>
     </ul>
   )
 

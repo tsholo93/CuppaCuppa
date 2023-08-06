@@ -14,15 +14,10 @@ function PageContent() {
   return (
     <>
       <Hero />
-
-
       <AboutLayout/>
       <Features />
       <Bookings />
-
       <CustomerReviews />
-
-
       <DownloadBanner />
       <Blog />
       <NewsletterSubscription />

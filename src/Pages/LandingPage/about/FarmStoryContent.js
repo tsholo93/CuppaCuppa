@@ -1,9 +1,12 @@
 import Template from "./Template";
-
-const menuContentData = {
+import coffeeBeanImg640 from "./assets/coffee-beans-on-the-table640.jpg";
+import coffeeBeanImg1920 from "./assets/coffee-beans-on-the-table1920.jpg";
+const farmStoryContentData = {
   id: 1,
   image: {
-    url: "/coffeeandspices.jpg",
+    size640: coffeeBeanImg640,
+    size1920: coffeeBeanImg1920,
+    alt: "Different types of coffee beans on a wood table"
   },
   masthead: {
     heading: "From farm to cup with quality beans",
@@ -17,5 +20,7 @@ const menuContentData = {
 };
 
 export default function MenuContent() {
-  return <Template data={menuContentData} isEven="true"/>
+  return (
+    <Template data={farmStoryContentData} isEven="true"/>
+  )
 }

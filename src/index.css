@@ -44,6 +44,12 @@ body {
   color: #0a0c0e;
 }
 
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+}
+
 *,
 *::before,
 *::after {

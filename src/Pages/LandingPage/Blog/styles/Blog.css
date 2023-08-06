@@ -14,7 +14,7 @@
 /* styles for Blogcta */
 
 .cuppa-blogcta .paragraph,
-.cuppa-blogcta .cuppa-button {
+.cuppa-blogcta .cuppa-blogcta-button {
   margin-bottom: 1rem;
 }
 
@@ -38,7 +38,7 @@
     margin-right: 4%;
   }
 
-  .cuppa-blogcta .cuppa-button {
+  .cuppa-blogcta .cuppa-blogcta-button {
     max-width: 40%;
     flex: 1 1 35%;
   }
@@ -85,7 +85,7 @@
     margin-right: 3%;
   }
 
-  .cuppa-blogcta .cuppa-button {
+  .cuppa-blogcta .cuppa-blogcta {
     max-width: 35%;
     flex: 1 1 30%;
   }
@@ -121,7 +121,7 @@
     margin-left: 1%;
   }
 
-  .cuppa-blogcta .cuppa-button {
+  .cuppa-blogcta .cuppa-blogcta-button {
     max-width: 25%;
   }
 
@@ -164,7 +164,6 @@
   .cuppa-blogcta {
     width: 75%;
   }
-
 
   /* --- END --- */
 }

@@ -1,13 +1,19 @@
-import "../../../Masthead.css";
+import Masthead from "../../Common/Masthead";
+
+const blogIntroData = {
+  masthead: {
+    heading: "Explore Our Captivating Articles",
+    tagline: "Our Blog"
+  }
+}
 
 function BlogIntro() {
   return (
     <div className="cuppa-blog-intro">
-      <header className="cuppa-masthead">
-        <p className="cuppa-tagline">Our Blog</p>
-        <h2 className="cuppa-heading">Explore Our Captivating Articles!</h2>
-      </header>
-
+      <Masthead
+        headingX2={blogIntroData.masthead.heading}
+        tagline={blogIntroData.masthead.tagline}
+      />
         <p className="paragraph">
           Get ready to embark on a delightful journey through our collection of articles.
           We've handpicked a variety of topics that are approachable, informative, and full of warmth.

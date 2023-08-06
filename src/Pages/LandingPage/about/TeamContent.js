@@ -1,9 +1,13 @@
 import Template from "./Template";
+import baristaImg640 from "./assets/barista-making-coffee640.jpg";
+import baristaImg1920 from "./assets/barista-making-coffee1920.jpg";
 
 const teamContentData = {
   id: 2,
   image: {
-    url: "/barista-mixing-coffee.jpg",
+    size640: baristaImg640,
+    size1920: baristaImg1920,
+    alt: "barista making a cup of coffee"
   },
   masthead: {
     heading: "Use the tips & recipes of our Barista",
@@ -17,5 +21,7 @@ const teamContentData = {
 };
 
 export default function TeamContent() {
-  return <Template data={teamContentData}/>
+  return (
+    <Template data={teamContentData}/>
+  )
 }

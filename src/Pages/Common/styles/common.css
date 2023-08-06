@@ -1,0 +1,75 @@
+/*
+
+  P A G E  B U T T O N S
+
+*/
+
+.cuppa-button {
+  width: max-content;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding: 1rem 1.5rem;
+  font-weight: 700;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+  clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+  overflow: hidden;
+  transition: .2s .1s;
+}
+
+.cuppa-button-maroon:link,
+.cuppa-button-maroon:visited {
+  background: #261420;
+  color: #F2F2F2;
+}
+
+.cuppa-button-cream:link,
+.cuppa-button-cream:visited {
+  background: #A1875B;
+  color: #0a0c0e;
+}
+
+.cuppa-button-moroon:focus,
+.cuppa-button-cream:focus {
+  outline: none;
+}
+
+.cuppa-button-cream:focus,
+.cuppa-button-cream:hover,
+.cuppa-button-maroon:focus,
+.cuppa-button-maroon:hover {
+  cursor: pointer;
+  transition: all .3s ease-in;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/*  P A G E  S P A C E  */
+
+.cuppa-page-pad {
+  padding: 4rem 1.5rem !important;
+}
+
+@media all and (min-width: 992px) {
+  .cuppa-page-pad {
+    padding: 3rem !important;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .cuppa-page-pad {
+    padding: 4rem !important;
+  }
+}
+
+
+

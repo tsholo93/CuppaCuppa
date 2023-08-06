@@ -1,14 +1,14 @@
-import "../../../Masthead.css";
+import Masthead from "../../Common/Masthead";
+import "../../Common/styles/common.css";
 import "./styles/CoffeeTastingEvent.css";
 
 function CoffeeTastingEvent() {
   return (
     <article className="cuppa-event">
-      <header className="cuppa-masthead">
-        <p className="masthead-tagline">Reservation</p>
-        <h2 className="masthead-heading">A Memorable Coffee Tasting Experience</h2>
-      </header>
-
+      <Masthead
+        headingX2="A Memorable Coffee Tasting Experience"
+        tagline="Reservation"
+      />
       <div className="paragraph-group">
         <p>
           Join us for an exclusive Coffee Tasting Reservation. Discover the fascinating world of flavors as we explore a variety of specialty coffees.
@@ -19,7 +19,7 @@ function CoffeeTastingEvent() {
       </div>
 
       <div className="link">
-        <a href="#0">Book now</a>
+        <a href="#0" className="cuppa-button cuppa-button-cream">Book now</a>
       </div>
     </article>
   )

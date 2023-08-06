@@ -1,23 +1,19 @@
 import EmailSubscriptionForm from "./EmailSubscriptionForm";
+import {MastheadCenter} from "../../Common/Masthead";
 
 import "./styles/NewsletterSubscription.css";
-import "../../../Masthead.css";
-
 function NewsletterSubscription() {
   return (
     <section className="cuppa-page-pad cuppa-subscription">
       <div className="cuppa-subscription-container">
-        <header className="masthead-center">
-          <p className="masthead-center-tagline">newsletter</p>
-          <h2 className="masthead-center-heading">Subscribe our Newsletter</h2>
-        </header>
+        <MastheadCenter
+          headingX2="Join Our Coffee Community"
+          tagline="Hello, new friend!"
+        />
 
 
         <p className="paragraph">
-          Unlock the taste of savings with our exclusive coupons, news letters and more! Hurry in and treat yourself to a cup of pure delight.
-        </p>
-        <p className="paragraph-cta">
-          <strong>Don't wait &mdash; this offer is only valid for a limited time!</strong>
+        Join our loyalty program and unlock exclusive rewards. Every visit brings you closer to free drinks, discounts, and special surprises. Start earning today! Together, let's create cherished memories over a perfect cup of coffee.
         </p>
 
         <EmailSubscriptionForm />

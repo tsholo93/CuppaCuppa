@@ -1,6 +1,6 @@
 .cuppa-form {
   width: 100%;
-  margin-top: 2rem;
+  margin: 2rem auto 0 auto;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -11,8 +11,7 @@
   margin-bottom: 0.9rem;
 }
 
-.cuppa-form .button {
-}
+
 
 .cuppa-form .input > input,
 .cuppa-form .button > button {
@@ -27,8 +26,13 @@
   font-size: 1rem;
   border: 1px solid #A1875B;
   background: none;
-  color: #F0F0F2;
+  color: #F2F2F2 !important;
   border-radius: 10px;
+}
+
+.cuppa-form .input > input:focus {
+  border: 1px solid #A1875B;
+  outline: 1px solid #A1875B;
 }
 
 .cuppa-form .button > button {
@@ -36,20 +40,53 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.85rem;
-  padding: 0.95rem 0.5rem;
+  padding: 0.95rem 1.5rem;
   background: #A1875B;
   color: #0a0c0e;
   appearance: none;
   border: 1px solid #A1875B;
   border-radius: 10px;
+  cursor: pointer;
+  -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+  clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+  overflow: hidden;
+  transition: .2s .1s;
+}
+
+.cuppa-form .button > button:hover {
+  cursor: pointer;
+  transition: all .3s ease-in;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @media all and (min-width: 576px) {}
 
+@media all and (min-width: 768px) {
+  .cuppa-form {
+    width: 85%;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .cuppa-form .input {
+    flex: 2 1 65%;
+    margin-right: 2%;
+  }
+
+  .cuppa-form .button {
+    flex: 1 1 max-content;
+  }
+
+  .cuppa-form .button > button{
+    max-width: max-content;
+  }
+
+}
 
 @media all and (min-width: 992px) {
   .cuppa-form {
-    width: 85%;
+    width: 90%;
   }
 }
-

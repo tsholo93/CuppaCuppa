@@ -1,5 +1,4 @@
 .cuppa-card {
-
   width: 100%;
   height: 100%;
   background: #403F2F;
@@ -15,8 +14,15 @@
   border-top-right-radius: 10px;
 }
 
+.cuppa-card .card-image {
+  overflow: hidden;
+}
+
 .cuppa-card .card-image > img {
-  max-width: 100%;
+  max-width: 100% !important;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 /* content */
@@ -26,18 +32,17 @@
 }
 
 .cuppa-card .card-content .title {
-  min-height: 3rem;
   margin-bottom: 1rem;
 }
 
 .cuppa-card .card-content .paragraph {
-  min-height: 7rem;
+  margin-bottom: 1rem;
 }
 
 .cuppa-card .card-content .link {
   margin-left: 0.4rem;
   display: inline-block;
-  color: pink;
+  color: #F1BFC8;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -46,17 +51,16 @@
 
 .cuppa-card .card-content .link:link,
 .cuppa-card .card-content .link:visited {
-  color: pink;
+  color: #F1BFC8;
 }
 
 .cuppa-card .card-content .link:focus {
-  outline: 1px dotted pink;
+  outline: 1px dotted #F1BFC8;
 }
 .cuppa-card .card-content .link:hover {
-  text-decoration: solid underline pink 1px;
+  text-decoration: solid underline #F1BFC8 1px;
 }
 .cuppa-card .card-content .link:active {}
-
 
 
 
@@ -67,7 +71,7 @@
   justify-content: flex-end;
   align-items: center;
   padding: 1rem;
-  border-top: 1px solid grey;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .cuppa-card .avatar {
@@ -90,26 +94,25 @@
 }
 
 .cuppa-card .footnote .author {
-  flex: 1 1 60%;
+  flex: 1 1 50%;
   margin-left: 0.7rem;
 }
 
 .cuppa-card .footnote .date,
 .cuppa-card .footnote .author {
   text-transform: uppercase;
-  font-size: 0.85rem;
+  font-size: 0.85rem !important;
   letter-spacing: 1px;
 }
 
 .cuppa-card .footnote .date {
-  flex: 1 1 40%;
+  flex: 1 1 50%;
   text-align: right;
 }
 
 
-
-@media all and (min-width: 768px) {}
-@media all and (min-width: 992px) {
-  .cuppa-card {
+@media all and (min-width: 1400px) {
+  .cuppa-card .card-content .title {
+    min-height: 2.6rem;
   }
 }

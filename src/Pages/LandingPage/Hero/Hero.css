@@ -9,7 +9,7 @@
 
   background: #0a0c0e;
   background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url(/public/coffee.jpg) no-repeat 50% 50% / cover fixed, #0a0c0e;
+  url(./pouring-coffee-1280.jpg) no-repeat 50% 50% / cover fixed, #0a0c0e;
   color: white;
 }
 
@@ -17,7 +17,7 @@
   width: 100%;
   font-family: "Playfair Display", sans-serif;
   text-transform: capitalize;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 400;
   text-align: left;
   margin-bottom: 1.5rem;
@@ -29,36 +29,6 @@
   width: 100%;
 }
 
-.cuppa-hero .button > a {
-  display: block;
-  width: max-content;
-  padding: 0.7rem 1.3rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 2px;
-  border: 1px solid #F2F2F2;
-  border-radius: 10px;
-  color: #F2F2F2;
-}
-
-.cuppa-hero .button > a:link,
-.cuppa-hero .button > a:visited {
-  border: 1px solid #F2F2F2;
-  color: #F2F2F2;
-}
-
-.cuppa-hero .button > a:hover,
-.cuppa-hero .buttton > a:focus {
-  border: 1px solid #F2F2F2;
-  color: #F2F2F2;
-}
-
-.cuppa-hero .button > a:active {
-  border: 1px solid #F2F2F2;
-  color: #F2F2F2;
-}
 
 @media all and (min-width: 576px) {
   .cuppa-hero {
@@ -73,10 +43,16 @@
   }
 }
 @media all and (min-width: 768px) {
+  .cuppa-hero {
+    background: #0a0c0e;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(./pouring-coffee-2500.jpg) no-repeat 50% 50% / cover fixed, #0a0c0e;
+
+  }
 }
 @media all and (min-width: 992px) {
   .cuppa-hero .title {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .cuppa-hero .paragraph {

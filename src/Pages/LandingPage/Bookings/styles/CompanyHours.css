@@ -1,8 +1,7 @@
 .cuppa-hours {
-  background: #333440;
   background: #0a0c0e;
   color: #89888C;
-  color: #F0F0F2;
+  color: #F2F2F2 !important;
   text-align: center;
   padding: 3rem 1rem;
   margin-top: 1.5rem;

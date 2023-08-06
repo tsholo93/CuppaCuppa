@@ -2,7 +2,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="cuppa-page-footer">
+    <footer className="cuppa-page-footer cuppa-page-pad">
       <div className="container">
         <section className="about-content">
           <h2 className="brand-name">CuppaCuppa</h2>
@@ -51,7 +51,7 @@ export default function Footer() {
       </div>
       <p className="copy-right-content">
         <small>&copy; CuppaCuppa 2023 | All rights reserved |
-        Images from <a>Unsplash</a>, <a>Freepik</a> & <a>Pexels</a></small>
+        Images from <a href="https://www.unsplash.com" target="_blank">Unsplash</a> & <a href="https://icons8.com/" target="_blank">Icons8</a></small>
       </p>
     </footer>
   )

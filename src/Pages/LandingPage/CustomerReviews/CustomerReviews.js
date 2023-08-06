@@ -9,9 +9,7 @@ function CustomerReviews() {
       background: "#A6845B"
     }}>
       <CustomerReviewIntro/>
-      <div className="cuppa-carousel-wrapper">
-        <ReviewCarousel/>
-      </div>
+      <ReviewCarousel/>
       <CustomerReviewConclusion />
     </section>
   )

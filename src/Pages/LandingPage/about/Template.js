@@ -1,35 +1,28 @@
-import Masthead from "../../../Masthead";
+import Masthead from "../../Common/Masthead";
+import LinkButton from "../../Common/LinkButton";
 import "./styles/Template.css";
 
-export default function Template({data, isEven = false}) {
+export default function Template({ data, isEven = false }) {
   return (
-    <Article>
+    <article className="template-wrapper">
       <Image
         config={data.image}
         even={isEven}
       />
-      <Section>
+      <section className="template-section">
         <Masthead
           tagline={data.masthead.tagline}
           headingX2={data.masthead.heading}
         />
-        <BodyCopy>
+        <p className="template-copy">
           {data.content}
-        </BodyCopy>
-        <Button url={data.button.url}>
+        </p>
+        <LinkButton bgColor="maroon">
           {data.button.name}
-        </Button>
-      </Section>
+        </LinkButton>
+      </section>
 
-    </Article>
-  )
-}
-
-function BodyCopy({ children }) {
-  return (
-    <p className="template-copy">
-      {children}
-    </p>
+    </article>
   )
 }
 
@@ -37,39 +30,11 @@ function Image({ config, even = false }) {
   const isEven = (even) ? "image-wrapper-even" : "";
   return (
     <figure className={`image-wrapper ${isEven}`}>
-      <img
-        src={config.url}
-      />
+      <picture className="image-wrapper">
+        <source media="(max-width: 767px)" srcSet={config.size640} />
+        <source media="(min-width: 768px)" srcSet={config.size1920} />
+        <img src={config.size1920} alt={config.alt} />
+      </picture>
     </figure>
-  )
-}
-
-function Article({ children }) {
-  return (
-    <article className="template-wrapper">
-      {children}
-    </article>
-  )
-}
-
-function Section({ children }) {
-  return (
-    <section className="template-section">
-      {children}
-    </section>
-  )
-}
-
-function Button({ children, url }) {
-  return (
-    <div className="template-button">
-      <Link _url={url}>{children}</Link>
-    </div>
-  )
-}
-
-function Link({ _url, children }) {
-  return (
-    <a href={_url} className="template-link">{children}</a>
   )
 }

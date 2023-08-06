@@ -1,7 +1,16 @@
-import {MastheadCenter} from '../../../Masthead';
+import {MastheadCenter} from "../../Common/Masthead";
+import menuIcon from "./assets/menu-256x256.png";
+import coffeeIcon from "./assets/coffee-256x256.png";
+import baristaIcon from "./assets/barista-256x256.png";
 import './Features.css';
 
-let featuresData = [
+const  masthead = {
+  title: "Why choose us: Elevating your coffee journey",
+  tagline: "Features",
+  bodyCopy: "We are passionate about delivering an unparalleled coffee experience that sets us apart from the rest."
+};
+
+const featuresData = [
   {
     id: 0,
     header: {
@@ -9,7 +18,7 @@ let featuresData = [
       bodyContent: "Discover a world of delightful surprises with our range of signature creations."
     },
     image: {
-      url: "/menu-256x256.png"
+      url: menuIcon
     }
   },
   {
@@ -19,7 +28,7 @@ let featuresData = [
       bodyContent: "We take pride in sourcing the finest, specialty-grade beans from around the world."
     },
     image: {
-      url: "/coffee-256x256.png"
+      url: coffeeIcon
     }
   },
   {
@@ -29,10 +38,10 @@ let featuresData = [
       bodyContent: "Our skilled baristas are true artisans, trained in the art of coffee preparation."
     },
     image: {
-      url: "/barista-256x256.png"
+      url: baristaIcon
     }
   }
-]
+];
 
 export default function Features() {
   return (
@@ -64,13 +73,6 @@ export default function Features() {
 
 
 
-var  masthead = {
-  title: "Why choose us: Elevating your coffee journey",
-  tagline: "Features",
-  bodyCopy: "We are passionate about delivering an unparalleled coffee experience that sets us apart from the rest."
-}
-
-
 function ContentItem({ headingX3, mainText }) {
   return (
     <section className="content">
@@ -80,9 +82,9 @@ function ContentItem({ headingX3, mainText }) {
   )
 }
 
-function Card({ id, image, content }) {
+function Card({ image, content }) {
   return (
-    <article className="feature-card" key={id}>
+    <>
       <Image
         config={image}
       />
@@ -90,7 +92,7 @@ function Card({ id, image, content }) {
         headingX3={content.title}
         mainText={content.bodyContent}
       />
-    </article>
+    </>
   )
 }
 
@@ -107,16 +109,17 @@ function Image({ config }) {
 function FeatureItems({ list }) {
   const listItems = list.map(
     item => (
-      <Card
-        key={item.id}
-        id={item.id}
-        image={item.image}
-        content={item.header}
-      />
+      <li className="feature-card" key={item.id}>
+        <Card
+          image={item.image}
+          content={item.header}
+        />
+      </li>
     ))
   return (
-    <div className="feature-items">
+    <ul className="feature-items">
       {listItems}
-    </div>
+    </ul>
   )
 }
+

@@ -8,8 +8,7 @@
   list-style: none;
 }
 
-.cuppa-page-nav .menu-list .link,
-.cuppa-page-nav .menu-list .reservation-btn {
+.cuppa-page-nav .menu-list .link {
   display: block;
   font-size: 0.65rem;
   text-transform: uppercase;
@@ -19,6 +18,7 @@
   padding: 0.4rem 2rem;
   text-align: center;
 }
+
 
 .cuppa-page-nav .menu-list .link {
   color: #F2F2F2;
@@ -39,28 +39,15 @@
 
 .cuppa-page-nav .menu-list .link:active {}
 
-.cuppa-page-nav .menu-list .reservation-btn {
-  margin: 1.5rem auto 0 auto;
-  background: #D98F4E;
-  color: #0E0E0E;
-  font-weight: 700;
-  border-radius: 0px;
+.cuppa-page-nav .menu-list .reservation-button {
 }
-
-.cuppa-page-nav .menu-list .reservation-btn:link,
-.cuppa-page-nav .menu-list .reservation-btn:visited {}
-
-.cuppa-page-nav .menu-list .reservation-btn:focus {}
-.cuppa-page-nav .menu-list .reservation-btn:hover {}
-.cuppa-page-nav .menu-list .reservation-btn:active {}
-
 /* nav menu toggler */
 
 .cuppa-page-nav .menu-toggler {
   width: 40px;
   height: 40px;
-  border: 2px solid #D98F4E;
-  border-radius: 50%;
+  border: 1px solid #0a0c0e;
+  border: none;
   background: #0a0c0e;
   color: #F2F2F2;
   text-decoration: none;
@@ -97,12 +84,18 @@
   right: 0; left: 0;
   width: 100vw;
   height: 100vh;
-  background: #0E0E0E;
-  color: white;
+  background: #0a0c0e;
+  color: #F2F2F2;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+}
+
+.menu-list.open .reservation-button {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .menu-list li {
@@ -110,7 +103,7 @@
 }
 
 
-@media all and (min-width: 992px) {
+@media all and (min-width: 768px) {
   .cuppa-page-nav .menu-list {
     display: flex;
     flex-flow: row nowrap;

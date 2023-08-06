@@ -7,10 +7,11 @@
   justify-content: center;
   align-items: flex-start;
   text-align: left;
+  background: #0a0c0e;
   background: linear-gradient(
     rgba(0,0,0,0.65),
     rgba(0, 0, 0, 0.65)),
-    url(/public/coffee-blur.jpg) no-repeat 50% 50% / cover  fixed, #0a0c0e;
+    url(../assets/coffee-blur1200.jpg) no-repeat 50% 50% / cover  fixed, #0a0c0e;
     color: #F2F2F2;
 }
 
@@ -39,7 +40,15 @@
 
 @media all and (min-width: 768px) {
   .cuppa-subscription-container {
-    width: 55%;
+    width: 70%;
+  }
+
+  .cuppa-subscription {
+    background: #0a0c0e;
+    background: linear-gradient(
+    rgba(0,0,0,0.65),
+    rgba(0, 0, 0, 0.65)),
+    url(../assets/coffee-blur.jpg) no-repeat 50% 50% / cover  fixed, #0a0c0e;
   }
 }
 
@@ -49,17 +58,17 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    width: 55%;
+    width: 65%;
   }
 
   .cuppa-subscription .paragraph,
   .cuppa-subscription .paragraph-cta {
-    max-width: 85%;
+    max-width: 100%;
   }
 }
 
 @media all and (min-width: 1200px) {
   .cuppa-subscription-container {
-    width: 45%;
+    width: 50%;
   }
 }

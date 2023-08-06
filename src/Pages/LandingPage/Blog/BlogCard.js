@@ -2,10 +2,13 @@ import "./styles/BlogCard.css";
 
 function BlogCard({ cardInfo }) {
   return (
-    <article className="cuppa-card page-pad">
-      <figure className="card-image">
-        <img
-          src={cardInfo.image.url} />
+    <article className="cuppa-card">
+      <figure className="card-image-container">
+        <picture className="card-image">
+          <source media="(max-width: 767px)" srcSet={cardInfo.image.size640} />
+          <source media="(min-width: 768px)" srcSet={cardInfo.image.size1920} />
+          <img src={cardInfo.image.size1920} alt={cardInfo.image.alt}/>
+        </picture>
       </figure>
       <section className="card-content">
         <h3 className="title">{ cardInfo.heading }</h3>
