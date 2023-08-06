@@ -8,7 +8,7 @@ import coffeeBeans1920 from "./assets/cup-of-coffee-surrounded-by-beans-1920.jpg
 import womenMakingCoffee640 from "./assets/two-women-barista-making-coffee640.jpg";
 import womenMakingCoffee1920 from "./assets/two-women-barista-making-coffee1920.jpg";
 
-import iconImage from "../../../assets/images/icons/blog-placeholder.jpeg";
+import iconImage from "./assets/blog-placeholder.jpeg";
 
 
 const articles = [
